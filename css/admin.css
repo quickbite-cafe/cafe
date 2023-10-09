@@ -1,27 +1,64 @@
-/* admin.css */
-
-.admin-container {
-    margin-top: 100px;
+/* Add your custom CSS styling here */
+body {
+    background-color: #f5f5f5;
 }
 
-.card {
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm, #adminContent {
+    text-align: center;
+}
+
+#menuList {
+    list-style: none;
+    padding: 0;
+}
+
+#menuList li {
+    margin-bottom: 10px;
+}
+
+/* Brown and White Color Scheme */
+.btn-primary,
+.btn-success,
+.btn-danger {
+    background-color: #8B4513;
+    border-color: #8B4513;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-danger:hover {
+    background-color: #654321; /* Darker brown on hover */
+    border-color: #654321;
+}
+
+#loginForm {
+    border: 1px solid #8B4513;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card-header.bg-primary {
+    background-color: #8B4513;
     border: none;
 }
 
-.card-header {
-    background-color: #8B4513; /* Brown background color */
-}
-
-.card-body {
+.container.admin-container {
     background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn-primary {
-    background-color: #8B4513 !important; /* Brown button color */
-    border-color: #8B4513 !important;
-}
-
-.btn-primary:hover {
-    background-color: #654321 !important; /* Darker brown on hover */
-    border-color: #654321 !important;
+#menuList li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    color: #8B4513;
 }
