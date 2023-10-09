@@ -1,0 +1,27 @@
+/* admin.css */
+
+.admin-container {
+    margin-top: 100px;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #8B4513; /* Brown background color */
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #8B4513 !important; /* Brown button color */
+    border-color: #8B4513 !important;
+}
+
+.btn-primary:hover {
+    background-color: #654321 !important; /* Darker brown on hover */
+    border-color: #654321 !important;
+}
